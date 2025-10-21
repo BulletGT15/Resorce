@@ -16,7 +16,7 @@ function Header() {
         <img className='w-[9rem]' src="src/components/Header/assets/logo.svg" alt="Resource"/>
         <div className='w-[22rem] h-[2.7rem] flex items-center justify-between border-[0.1rem] border-[#E0E0E0]'>
             <img className='h-[40%] ml-[0.8rem]' src="src/components/Header/assets/search-icon.svg" alt="search" />
-            <input className='w-[11rem] h-[80%] text-xs text-[#E0E0E0]' type="text" placeholder='Search website...'/>
+            <input className='w-[11rem] h-[80%] text-xs text-black outline-none placeholder:text-[#E0E0E0]' type="text" placeholder='Search website...'/>
             <button className='w-[8rem] h-full text-xs text-[#E0E0E0] bg-[#B8BDC9] cursor-pointer'>Search</button>
         </div>
     </header>
